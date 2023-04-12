@@ -5,8 +5,8 @@ import java.util.List;
 
 
 public class ArgumentParser {
-    private String[] args;
-    public ArgumentParser(String[] args) {
+    private List<String> args;
+    public ArgumentParser(List<String> args) {
         this.args = args;
     }
 

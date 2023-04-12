@@ -10,7 +10,7 @@ public class ArgumentParser {
         this.args = args;
     }
 
-    public List<Short> numbers(int count) throws Exception {
+    public List<Short> numbers(int count, int max) throws GameException {
         List<Short> nums = new ArrayList<>();
 
         for (String arg : args) {
@@ -18,7 +18,7 @@ public class ArgumentParser {
                 short number = Short.parseShort(arg);
                 nums.add(number);
             } catch (NumberFormatException e) {
-                throw new Exception("Invalid number ´" + arg + "´");
+                throw new GameException("Invalid number ´" + arg + "´");
             }
         }
 
@@ -27,7 +27,7 @@ public class ArgumentParser {
         }
 
         if (nums.size() > count) {
-            throw new Exception("Too many numbers. Max: " + count + " Given: " + nums.size());
+            throw new GameException("Too many numbers. Max: " + count + " Given: " + nums.size());
         }
 
         return nums;

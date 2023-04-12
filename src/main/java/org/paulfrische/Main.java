@@ -70,7 +70,7 @@ public class Main {
         return badNumbers;
     }
 
-    public static List<Short> getBadNumbers() throws Exception {
+    public static List<Short> getBadNumbers() throws GameException {
         List<Short> badNumbers = new ArrayList();
 
         List<String> arguments = new ArrayList<>();

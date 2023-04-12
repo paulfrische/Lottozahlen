@@ -22,10 +22,20 @@ public class ClassicGame implements Game {
                 numbers.set(i, (short) random.nextInt(50));
             }
 
+            // check for bad numbers
             valid = true;
             for (short number: badNumbers) {
                 if (numbers.contains(number)) {
                     valid = false;
+                }
+            }
+
+            // check for duplicates
+            for (int i = 0; i < numbers.size(); i++) {
+                for (int j = i + 1; j < numbers.size(); j++) {
+                    if (i == j) {
+                        valid = false;
+                    }
                 }
             }
         }

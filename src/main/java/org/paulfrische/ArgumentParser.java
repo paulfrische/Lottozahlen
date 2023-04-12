@@ -16,6 +16,9 @@ public class ArgumentParser {
         for (String arg : args) {
             try {
                 short number = Short.parseShort(arg);
+                if (number > max || number < 0) {
+                    throw new GameException("number ´" + number + "´ is out of bounds");
+                }
                 nums.add(number);
             } catch (NumberFormatException e) {
                 throw new GameException("Invalid number ´" + arg + "´");

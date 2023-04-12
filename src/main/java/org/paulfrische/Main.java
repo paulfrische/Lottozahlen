@@ -54,7 +54,7 @@ public class Main {
                 }
             }
             ArgumentParser parser = new ArgumentParser(arguments);
-            badNumbers = parser.numbers(6);
+            badNumbers = parser.numbers(6, 49);
             String data = gson.toJson(badNumbers);
             file.createNewFile();
             FileWriter writer = new FileWriter(file.getName());
@@ -84,7 +84,7 @@ public class Main {
                 arguments.add(input);
             }
         ArgumentParser parser = new ArgumentParser(arguments);
-        badNumbers = parser.numbers(6);
+        badNumbers = parser.numbers(6, 49);
         return badNumbers;
     }
 }

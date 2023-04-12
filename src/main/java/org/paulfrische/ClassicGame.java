@@ -8,14 +8,14 @@ public class ClassicGame implements Game {
     private ArrayList<Short> badNumbers;
     private Random random;
 
-    public ClassicGame(ArrayList<Short> badNumbers) {
-        this.badNumbers = badNumbers;
+    public ClassicGame(List<Short> badNumbers) {
+        this.badNumbers = (ArrayList) badNumbers;
         random = new Random();
     }
 
     @Override
-    public ArrayList<Short> generateNumbers() {
-        ArrayList<Short> numbers = (ArrayList<Short>) badNumbers.clone();
+    public List<Short> generateNumbers() {
+        List<Short> numbers = (ArrayList<Short>) badNumbers.clone();
         boolean valid = false;
         while (!valid) {
             for (int i = 0; i < 6; i++) {
@@ -34,7 +34,7 @@ public class ClassicGame implements Game {
     }
 
     @Override
-    public ArrayList<Short> getBadNumbers() {
+    public List<Short> getBadNumbers() {
         return badNumbers;
     }
 }

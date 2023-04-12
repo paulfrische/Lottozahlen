@@ -1,8 +1,9 @@
 package org.paulfrische;
 
 import java.util.ArrayList;
+import java.util.List;
 
 public interface Game {
-    public ArrayList<Short> generateNumbers();
-    public ArrayList<Short> getBadNumbers();
+    public List<Short> generateNumbers();
+    public List<Short> getBadNumbers();
 }

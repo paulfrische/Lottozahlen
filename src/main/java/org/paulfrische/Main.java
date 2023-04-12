@@ -15,7 +15,17 @@ public class Main {
         Scanner stdin = new Scanner(System.in);
         Gson gson = new Gson();
         List<Short> badNumbers = new ArrayList();
-        if (!file.exists()) {
+        boolean reuse = false;
+
+        if (file.exists() && args.length == 0) {
+            System.out.print("There are old numbers, do you want to reuse them?\n[Y/n] ");
+            String input = stdin.nextLine();
+            if (input.toLowerCase() == "y" || input == "") {
+                reuse = true;
+            }
+        }
+
+        if (!reuse) {
             List<String> arguments = new ArrayList<>();
             if (args.length > 0){
                 arguments = new ArrayList<>(List.of(args));

@@ -2,27 +2,28 @@ package org.paulfrische.Util;
 
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.paulfrische.ArgumentParser;
 import org.paulfrische.GameException;
+import org.paulfrische.Main;
 
 import java.io.File;
 import java.io.FileWriter;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
-import java.util.logging.Logger;
 
 public class BadNumberUtil {
-    private static Logger logger = Logger.getLogger("org.paulfrische.Util.BadNumberUtil");
     private InputUtil input;
     private Scanner stdin;
-
+    private Logger logger = LogManager.getLogger(Main.class);
     public BadNumberUtil(InputUtil input, Scanner stdin) {
         this.input = input;
         this.stdin = stdin;
     }
     public List<Short> getBadNumbersCached(String[] args) throws Exception {
-        logger.fine("getting bad numbers (cached)");
+        logger.info("getting bad numbers (cached)");
         File file = new File("numbers.json");
         Gson gson = new Gson();
         List<Short> badNumbers = new ArrayList();
@@ -50,7 +51,7 @@ public class BadNumberUtil {
     }
 
     public List<Short> getBadNumbers() throws GameException {
-        logger.fine("getting bad numbers");
+        logger.info("getting bad numbers");
         List<Short> badNumbers = new ArrayList();
 
         List<String> arguments = new ArrayList<>();
@@ -73,6 +74,7 @@ public class BadNumberUtil {
                     done = true;
                     arguments.add(input);
                 } catch (GameException e) {
+                    logger.warn(e.toString());
                     System.out.println(e.getMessage());
                 }
             }

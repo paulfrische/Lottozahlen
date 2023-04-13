@@ -10,7 +10,6 @@ import org.paulfrische.Util.InputUtil;
 
 import java.util.List;
 import java.util.Scanner;
-import java.util.logging.Logger;
 
 public class Main {
     private static Scanner stdin = new Scanner(System.in);
@@ -18,9 +17,11 @@ public class Main {
     private static Logger logger = Logger.getLogger("org.paulfrische");
     private static BadNumberUtil badNumberUtil = new BadNumberUtil(input, stdin);
     public static void main(String[] args) throws Exception {
+        logger.debug("start application");
         List<Short> badNumbers = badNumberUtil.getBadNumbersCached(args);
         boolean run = true;
         String gameType = input.choice("Game type:", new String[]{"Classic", "Eurojackpot"});
+        logger.debug("Game Type: " + gameType);
         Game game;
         while (run) {
             switch (gameType) {
@@ -38,6 +39,7 @@ public class Main {
             run = input.binaryQuestion("Do you want to generate more numbers?");
             if (run) {
                 badNumbers = badNumberUtil.getBadNumbers();
+                logger.info("bad numbers " + badNumbers.toString());
             }
         }
         stdin.close();

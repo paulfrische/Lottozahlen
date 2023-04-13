@@ -6,4 +6,5 @@ import java.util.List;
 public interface Game {
     public List<Short> generateNumbers();
     public List<Short> getBadNumbers();
+    public void printNumbers();
 }

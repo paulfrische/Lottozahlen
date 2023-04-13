@@ -1,0 +1,206 @@
+2023-04-13 09:11:05 DEBUG start application
+w2023-04-13 09:11:05 INFO  getting bad numbers (cached)
+w2023-04-13 09:13:23 DEBUG start application
+w2023-04-13 09:13:23 DEBUG start application
+w2023-04-13 09:13:23 INFO  getting bad numbers (cached)
+w2023-04-13 09:13:23 INFO  getting bad numbers (cached)
+w2023-04-13 09:15:45 DEBUG start application
+w2023-04-13 09:15:45 DEBUG start application
+w2023-04-13 09:15:45 INFO  getting bad numbers (cached)
+w2023-04-13 09:15:45 INFO  getting bad numbers (cached)
+w{yyyy-MM-dd HH:mm:ss} DEBUG start application
+{yyyy-MM-dd HH:mm:ss} DEBUG start application
+{yyyy-MM-dd HH:mm:ss} INFO  getting bad numbers (cached)
+{yyyy-MM-dd HH:mm:ss} INFO  getting bad numbers (cached)
+2023-04-13 09:16:48 DEBUG start application
+2023-04-13 09:16:48 DEBUG start application
+2023-04-13 09:16:48 INFO  getting bad numbers (cached)
+2023-04-13 09:16:48 INFO  getting bad numbers (cached)
+2023-04-13 09:20:34 DEBUG start application
+2023-04-13 09:20:34 DEBUG start application
+2023-04-13 09:20:34 INFO  getting bad numbers (cached)
+2023-04-13 09:20:34 INFO  getting bad numbers (cached)
+2023-04-13 09:20:43 DEBUG Game Type: Classic
+2023-04-13 09:20:43 DEBUG Game Type: Classic
+2023-04-13 09:20:43 INFO  generated numbers: [37, 34, 14, 26, 41, 45]
+2023-04-13 09:20:43 INFO  generated numbers: [37, 34, 14, 26, 41, 45]
+2023-04-13 09:20:45 INFO  getting bad numbers
+2023-04-13 09:20:45 INFO  getting bad numbers
+2023-04-13 09:20:50 WARN  org.paulfrische.GameException: number ´66´ is out of bounds
+2023-04-13 09:20:50 WARN  org.paulfrische.GameException: number ´66´ is out of bounds
+2023-04-13 09:21:06 INFO  bad numbers [5, 34, 48, 0, 0, 0]
+2023-04-13 09:21:06 INFO  bad numbers [5, 34, 48, 0, 0, 0]
+2023-04-13 09:21:06 INFO  generated numbers: [12, 42, 18, 21, 2, 6]
+2023-04-13 09:21:06 INFO  generated numbers: [12, 42, 18, 21, 2, 6]
+2023-04-13 09:21:58 DEBUG start application
+2023-04-13 09:21:58 DEBUG start application
+2023-04-13 09:21:58 INFO  getting bad numbers (cached)
+2023-04-13 09:21:58 INFO  getting bad numbers (cached)
+2023-04-13 09:22:02 INFO  getting bad numbers
+2023-04-13 09:22:02 INFO  getting bad numbers
+2023-04-13 09:22:04 WARN  org.paulfrische.GameException: number ´66´ is out of bounds
+2023-04-13 09:22:04 WARN  org.paulfrische.GameException: number ´66´ is out of bounds
+2023-04-13 09:22:47 DEBUG start application
+2023-04-13 09:22:47 DEBUG start application
+2023-04-13 09:22:47 INFO  getting bad numbers (cached)
+2023-04-13 09:22:47 INFO  getting bad numbers (cached)
+2023-04-13 09:22:50 INFO  getting bad numbers
+2023-04-13 09:22:50 INFO  getting bad numbers
+2023-04-13 09:23:01 DEBUG Game Type: Eurojackpot
+2023-04-13 09:23:01 DEBUG Game Type: Eurojackpot
+2023-04-13 09:23:01 INFO  generated numbers: [24, 11, 34, 11, 17, 3, 3]
+2023-04-13 09:23:01 INFO  generated numbers: [24, 11, 34, 11, 17, 3, 3]
+2023-04-13 09:28:56 DEBUG start application
+2023-04-13 09:28:56 DEBUG start application
+2023-04-13 09:28:56 INFO  getting bad numbers (cached)
+2023-04-13 09:28:56 INFO  getting bad numbers (cached)
+2023-04-13 09:29:06 DEBUG Game Type: Eurojackpot
+2023-04-13 09:29:06 DEBUG Game Type: Eurojackpot
+2023-04-13 09:29:06 INFO  generated numbers: [23, 49, 25, 27, 4, 5, 8]
+2023-04-13 09:29:06 INFO  generated numbers: [23, 49, 25, 27, 4, 5, 8]
+2023-04-13 09:29:11 INFO  getting bad numbers
+2023-04-13 09:29:11 INFO  getting bad numbers
+2023-04-13 09:29:15 INFO  bad numbers [0, 0, 0, 0, 0, 0]
+2023-04-13 09:29:15 INFO  bad numbers [0, 0, 0, 0, 0, 0]
+2023-04-13 09:29:15 INFO  generated numbers: [9, 33, 10, 25, 40, 8, 7]
+2023-04-13 09:29:15 INFO  generated numbers: [9, 33, 10, 25, 40, 8, 7]
+2023-04-13 09:29:18 INFO  getting bad numbers
+2023-04-13 09:29:18 INFO  getting bad numbers
+2023-04-13 09:29:21 INFO  bad numbers [0, 0, 0, 0, 0, 0]
+2023-04-13 09:29:21 INFO  bad numbers [0, 0, 0, 0, 0, 0]
+2023-04-13 09:29:21 INFO  generated numbers: [23, 39, 33, 19, 14, 1, 2]
+2023-04-13 09:29:21 INFO  generated numbers: [23, 39, 33, 19, 14, 1, 2]
+2023-04-13 09:29:25 INFO  getting bad numbers
+2023-04-13 09:29:25 INFO  getting bad numbers
+2023-04-13 09:29:28 INFO  bad numbers [0, 0, 0, 0, 0, 0]
+2023-04-13 09:29:28 INFO  bad numbers [0, 0, 0, 0, 0, 0]
+2023-04-13 09:29:28 INFO  generated numbers: [37, 10, 9, 3, 7, 6, 8]
+2023-04-13 09:29:28 INFO  generated numbers: [37, 10, 9, 3, 7, 6, 8]
+2023-04-13 09:29:54 DEBUG start application
+2023-04-13 09:29:54 DEBUG start application
+2023-04-13 09:29:54 INFO  getting bad numbers (cached)
+2023-04-13 09:29:54 INFO  getting bad numbers (cached)
+2023-04-13 09:30:01 DEBUG Game Type: Eurojackpot
+2023-04-13 09:30:01 DEBUG Game Type: Eurojackpot
+2023-04-13 09:30:01 INFO  generated numbers: [18, 15, 28, 27, 9, 4, 5]
+2023-04-13 09:30:01 INFO  generated numbers: [18, 15, 28, 27, 9, 4, 5]
+2023-04-13 09:30:04 INFO  getting bad numbers
+2023-04-13 09:30:04 INFO  getting bad numbers
+2023-04-13 09:30:24 INFO  bad numbers [0, 0, 0, 0, 0, 0]
+2023-04-13 09:30:24 INFO  bad numbers [0, 0, 0, 0, 0, 0]
+2023-04-13 09:30:24 INFO  generated numbers: [30, 8, 28, 46, 30, 3, 7]
+2023-04-13 09:30:24 INFO  generated numbers: [30, 8, 28, 46, 30, 3, 7]
+2023-04-13 09:30:28 INFO  getting bad numbers
+2023-04-13 09:30:28 INFO  getting bad numbers
+2023-04-13 09:30:30 INFO  bad numbers [0, 0, 0, 0, 0, 0]
+2023-04-13 09:30:30 INFO  bad numbers [0, 0, 0, 0, 0, 0]
+2023-04-13 09:30:30 INFO  generated numbers: [44, 46, 33, 28, 28, 1, 4]
+2023-04-13 09:30:30 INFO  generated numbers: [44, 46, 33, 28, 28, 1, 4]
+2023-04-13 09:30:37 INFO  getting bad numbers
+2023-04-13 09:30:37 INFO  getting bad numbers
+2023-04-13 09:30:41 INFO  bad numbers [0, 0, 0, 0, 0, 0]
+2023-04-13 09:30:41 INFO  bad numbers [0, 0, 0, 0, 0, 0]
+2023-04-13 09:30:41 INFO  generated numbers: [21, 34, 13, 35, 41, 5, 2]
+2023-04-13 09:30:41 INFO  generated numbers: [21, 34, 13, 35, 41, 5, 2]
+2023-04-13 09:30:46 INFO  getting bad numbers
+2023-04-13 09:30:46 INFO  getting bad numbers
+2023-04-13 09:30:50 INFO  bad numbers [0, 0, 0, 0, 0, 0]
+2023-04-13 09:30:50 INFO  bad numbers [0, 0, 0, 0, 0, 0]
+2023-04-13 09:30:50 INFO  generated numbers: [33, 18, 9, 29, 46, 8, 4]
+2023-04-13 09:30:50 INFO  generated numbers: [33, 18, 9, 29, 46, 8, 4]
+2023-04-13 09:31:54 DEBUG start application
+2023-04-13 09:31:54 DEBUG start application
+2023-04-13 09:31:54 INFO  getting bad numbers (cached)
+2023-04-13 09:31:54 INFO  getting bad numbers (cached)
+2023-04-13 09:32:02 DEBUG Game Type: Eurojackpot
+2023-04-13 09:32:02 DEBUG Game Type: Eurojackpot
+2023-04-13 09:32:02 INFO  generated numbers: [48, 30, 11, 24, 34, 4, 4]
+2023-04-13 09:32:02 INFO  generated numbers: [48, 30, 11, 24, 34, 4, 4]
+2023-04-13 09:32:37 DEBUG start application
+2023-04-13 09:32:37 DEBUG start application
+2023-04-13 09:32:37 INFO  getting bad numbers (cached)
+2023-04-13 09:32:37 INFO  getting bad numbers (cached)
+2023-04-13 09:32:42 DEBUG Game Type: Eurojackpot
+2023-04-13 09:32:42 DEBUG Game Type: Eurojackpot
+2023-04-13 09:32:42 INFO  generated numbers: [27, 21, 32, 12, 32, 4, 4]
+2023-04-13 09:32:42 INFO  generated numbers: [27, 21, 32, 12, 32, 4, 4]
+2023-04-13 09:34:31 DEBUG start application
+2023-04-13 09:34:31 DEBUG start application
+2023-04-13 09:34:31 INFO  getting bad numbers (cached)
+2023-04-13 09:34:31 INFO  getting bad numbers (cached)
+2023-04-13 09:34:41 DEBUG Game Type: Eurojackpot
+2023-04-13 09:34:41 DEBUG Game Type: Eurojackpot
+2023-04-13 09:44:42 DEBUG start application
+2023-04-13 09:44:42 DEBUG start application
+2023-04-13 09:44:42 INFO  getting bad numbers (cached)
+2023-04-13 09:44:42 INFO  getting bad numbers (cached)
+2023-04-13 09:44:47 DEBUG Game Type: Eurojackpot
+2023-04-13 09:44:47 DEBUG Game Type: Eurojackpot
+2023-04-13 09:46:22 DEBUG start application
+2023-04-13 09:46:22 DEBUG start application
+2023-04-13 09:46:22 INFO  getting bad numbers (cached)
+2023-04-13 09:46:22 INFO  getting bad numbers (cached)
+2023-04-13 09:46:32 DEBUG Game Type: Eurojackpot
+2023-04-13 09:46:32 DEBUG Game Type: Eurojackpot
+2023-04-13 09:46:54 DEBUG start application
+2023-04-13 09:46:54 DEBUG start application
+2023-04-13 09:46:54 INFO  getting bad numbers (cached)
+2023-04-13 09:46:54 INFO  getting bad numbers (cached)
+2023-04-13 09:47:03 DEBUG start application
+2023-04-13 09:47:03 DEBUG start application
+2023-04-13 09:47:03 INFO  getting bad numbers (cached)
+2023-04-13 09:47:03 INFO  getting bad numbers (cached)
+2023-04-13 09:47:17 DEBUG Game Type: Eurojackpot
+2023-04-13 09:47:17 DEBUG Game Type: Eurojackpot
+2023-04-13 09:49:46 DEBUG start application
+2023-04-13 09:49:46 DEBUG start application
+2023-04-13 09:49:46 INFO  getting bad numbers (cached)
+2023-04-13 09:49:46 INFO  getting bad numbers (cached)
+2023-04-13 09:49:50 DEBUG Game Type: Eurojackpot
+2023-04-13 09:49:50 DEBUG Game Type: Eurojackpot
+2023-04-13 09:50:32 DEBUG start application
+2023-04-13 09:50:32 DEBUG start application
+2023-04-13 09:50:32 INFO  getting bad numbers (cached)
+2023-04-13 09:50:32 INFO  getting bad numbers (cached)
+2023-04-13 09:50:39 DEBUG Game Type: Eurojackpot
+2023-04-13 09:50:39 DEBUG Game Type: Eurojackpot
+2023-04-13 09:53:26 DEBUG start application
+2023-04-13 09:53:26 DEBUG start application
+2023-04-13 09:53:26 INFO  getting bad numbers (cached)
+2023-04-13 09:53:26 INFO  getting bad numbers (cached)
+2023-04-13 09:53:33 DEBUG Game Type: Classic
+2023-04-13 09:53:33 DEBUG Game Type: Classic
+2023-04-13 09:53:59 DEBUG start application
+2023-04-13 09:53:59 DEBUG start application
+2023-04-13 09:53:59 INFO  getting bad numbers (cached)
+2023-04-13 09:53:59 INFO  getting bad numbers (cached)
+2023-04-13 09:54:06 DEBUG Game Type: Classic
+2023-04-13 09:54:06 DEBUG Game Type: Classic
+2023-04-13 09:57:19 DEBUG start application
+2023-04-13 09:57:19 DEBUG start application
+2023-04-13 09:57:19 INFO  getting bad numbers (cached)
+2023-04-13 09:57:19 INFO  getting bad numbers (cached)
+2023-04-13 09:57:25 DEBUG Game Type: Classic
+2023-04-13 09:57:25 DEBUG Game Type: Classic
+2023-04-13 09:57:34 INFO  getting bad numbers
+2023-04-13 09:57:34 INFO  getting bad numbers
+2023-04-13 09:57:36 INFO  bad numbers [0, 0, 0, 0, 0, 0]
+2023-04-13 09:57:36 INFO  bad numbers [0, 0, 0, 0, 0, 0]
+2023-04-13 09:57:40 DEBUG start application
+2023-04-13 09:57:40 DEBUG start application
+2023-04-13 09:57:40 INFO  getting bad numbers (cached)
+2023-04-13 09:57:40 INFO  getting bad numbers (cached)
+2023-04-13 09:57:47 DEBUG Game Type: Eurojackpot
+2023-04-13 09:57:47 DEBUG Game Type: Eurojackpot
+2023-04-13 09:58:57 DEBUG start application
+2023-04-13 09:58:57 DEBUG start application
+2023-04-13 09:58:57 INFO  getting bad numbers (cached)
+2023-04-13 09:58:57 INFO  getting bad numbers (cached)
+2023-04-13 09:59:03 DEBUG Game Type: Eurojackpot
+2023-04-13 09:59:03 DEBUG Game Type: Eurojackpot
+2023-04-13 09:59:23 DEBUG start application
+2023-04-13 09:59:23 DEBUG start application
+2023-04-13 09:59:23 INFO  getting bad numbers (cached)
+2023-04-13 09:59:23 INFO  getting bad numbers (cached)
+2023-04-13 09:59:28 DEBUG Game Type: Eurojackpot
+2023-04-13 09:59:28 DEBUG Game Type: Eurojackpot

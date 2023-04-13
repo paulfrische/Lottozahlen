@@ -12,10 +12,10 @@ import java.util.List;
 import java.util.Scanner;
 
 public class Main {
-    private static Scanner stdin = new Scanner(System.in);
-    private static InputUtil input = new InputUtil(stdin);
-    private static Logger logger = Logger.getLogger("org.paulfrische");
-    private static BadNumberUtil badNumberUtil = new BadNumberUtil(input, stdin);
+    private static final Scanner stdin = new Scanner(System.in);
+    private static final InputUtil input = new InputUtil(stdin);
+    private static final Logger logger = LogManager.getLogger(Main.class);
+    private static final BadNumberUtil badNumberUtil = new BadNumberUtil(input, stdin);
     public static void main(String[] args) throws Exception {
         logger.debug("start application");
         List<Short> badNumbers = badNumberUtil.getBadNumbersCached(args);
@@ -24,18 +24,12 @@ public class Main {
         logger.debug("Game Type: " + gameType);
         Game game;
         while (run) {
-            switch (gameType) {
-                case "Eurojackpot":
-                    game = new Eurojackpot(badNumbers);
-                    break;
-                default:
-                    game = new ClassicGame(badNumbers);
+            if (gameType.equals("Eurojackpot")) {
+                game = new Eurojackpot(badNumbers);
+            } else {
+                game = new ClassicGame(badNumbers);
             }
-            List<Short> numbers = game.generateNumbers();
-            for (short num : numbers) {
-                System.out.print(num + " ");
-            }
-            System.out.println("");
+            game.printNumbers();
             run = input.binaryQuestion("Do you want to generate more numbers?");
             if (run) {
                 badNumbers = badNumberUtil.getBadNumbers();

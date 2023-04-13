@@ -1,6 +1,7 @@
 package org.paulfrische.Games;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 import java.util.Random;
 
@@ -33,7 +34,7 @@ public class ClassicGame implements Game {
             // check for duplicates
             for (int i = 0; i < numbers.size(); i++) {
                 for (int j = i + 1; j < numbers.size(); j++) {
-                    if (i == j) {
+                    if (numbers.get(i) == numbers.get(j)) {
                         valid = false;
                     }
                 }
@@ -46,5 +47,15 @@ public class ClassicGame implements Game {
     @Override
     public List<Short> getBadNumbers() {
         return badNumbers;
+    }
+
+    @Override
+    public void printNumbers() {
+        List<Short> numbers = generateNumbers();
+        Collections.sort(numbers);
+        for (short num : numbers) {
+            System.out.print(num + " ");
+        }
+        System.out.println();
     }
 }

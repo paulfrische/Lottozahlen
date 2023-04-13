@@ -1,4 +1,4 @@
-package org.paulfrische;
+package org.paulfrische.Util;
 
 import java.util.Scanner;
 

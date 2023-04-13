@@ -1,7 +1,9 @@
-package org.paulfrische;
+package org.paulfrische.Util;
 
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
+import org.paulfrische.ArgumentParser;
+import org.paulfrische.GameException;
 
 import java.io.File;
 import java.io.FileWriter;
@@ -11,7 +13,7 @@ import java.util.Scanner;
 import java.util.logging.Logger;
 
 public class BadNumberUtil {
-    private static Logger logger = Logger.getLogger("org.paulfrische.BadNumberUtil");
+    private static Logger logger = Logger.getLogger("org.paulfrische.Util.BadNumberUtil");
     private InputUtil input;
     private Scanner stdin;
 

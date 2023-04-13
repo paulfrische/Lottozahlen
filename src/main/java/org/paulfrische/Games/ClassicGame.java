@@ -1,4 +1,4 @@
-package org.paulfrische;
+package org.paulfrische.Games;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,6 +1,9 @@
 package org.paulfrische;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.paulfrische.Games.ClassicGame;
+import org.paulfrische.Games.Eurojackpot;
 import org.paulfrische.Games.Game;
 import org.paulfrische.Util.BadNumberUtil;
 import org.paulfrische.Util.InputUtil;
@@ -17,9 +20,18 @@ public class Main {
     public static void main(String[] args) throws Exception {
         List<Short> badNumbers = badNumberUtil.getBadNumbersCached(args);
         boolean run = true;
+        String gameType = input.choice("Game type:", new String[]{"Classic", "Eurojackpot"});
+        Game game;
         while (run) {
-            Game game = new ClassicGame(badNumbers);
-            for (short num : game.generateNumbers()) {
+            switch (gameType) {
+                case "Eurojackpot":
+                    game = new Eurojackpot(badNumbers);
+                    break;
+                default:
+                    game = new ClassicGame(badNumbers);
+            }
+            List<Short> numbers = game.generateNumbers();
+            for (short num : numbers) {
                 System.out.print(num + " ");
             }
             System.out.println("");

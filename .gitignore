@@ -43,3 +43,4 @@ bin/
 
 ### project specific files ###
 numbers.json
+*.log

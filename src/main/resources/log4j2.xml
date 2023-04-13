@@ -1,0 +1,17 @@
+<Configuration status="ERROR" packages="">
+    <Appenders>
+        <File name="fout" filename="numbers.log" append="true">
+            <PatternLayout>
+                <Pattern>%d{yyyy-MM-dd HH:mm:ss} %-5p %m%n</Pattern>
+            </PatternLayout>
+        </File>
+    </Appenders>
+    <Loggers>
+        <Logger name="org.paulfrische.Main" level="debug">
+            <AppenderRef ref="fout"/>
+        </Logger>
+        <Root level="debug">
+            <AppenderRef ref="fout"/>
+        </Root>
+    </Loggers>
+</Configuration>

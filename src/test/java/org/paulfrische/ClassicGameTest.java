@@ -1,6 +1,8 @@
 package org.paulfrische;
 
 import org.junit.jupiter.api.Test;
+import org.paulfrische.Games.ClassicGame;
+import org.paulfrische.Games.Game;
 
 import java.util.ArrayList;
 
